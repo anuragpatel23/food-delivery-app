@@ -3,10 +3,8 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
-  styleUrl: './header.component.css'
+  styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-
-  username= "Anurag";
-
+  username = 'JohnDoe'; 
 }
